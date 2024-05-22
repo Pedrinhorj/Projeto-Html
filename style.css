@@ -1,0 +1,101 @@
+/* Primeira pagina */
+* {
+  margin: 0;
+  padding: 0; /* Formatação de página web */
+}
+.image-capa {
+  width: 100%;
+  background-size: cover;
+}
+#menu {
+  background-color: #0a1218;
+  color: antiquewhite;
+}
+.title-menu {
+  margin-left: 6em;
+  font-family: "Times New Roman";
+  font-size: 3em;
+}
+nav {
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  margin-left: 19em;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  color: #2e5b80;
+  margin-right: 30px;
+  text-decoration: none;
+}
+/* Segunda parte */
+/* Segundo texto */
+
+.second-title {
+  font-family: "Grandiflora One", cursive;
+}
+.text {
+  margin-top: 2em;
+  width: 60em;
+}
+.conteiner1 {
+  color: #575252;
+  display: inline-flex;
+  flex-direction: column;
+}
+.main-div {
+  text-align: center;
+}
+
+/* Conteiner de imagens + caracteres */
+
+.conteiner2 {
+  margin-top: 5em;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  color: #444141;
+  font-family: "Roboto";
+}
+h2{
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+/* Configuração de fotos/ sujeito a mudanças */
+.photo-profile {
+  border-radius: 1.6em;
+}
+
+/* Parte 3 */
+
+.three-part{
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 15%;
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+.three-part-title{
+    width: 20em;
+    margin-bottom: 2em;
+}
+.three-part-text{
+    width: 40em;
+}
+
+footer{
+    background-color: #0b1e2e;
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
